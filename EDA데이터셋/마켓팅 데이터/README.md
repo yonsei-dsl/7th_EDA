@@ -1,4 +1,4 @@
-Marketing Campaign
+# Marketing Campaign
 해당 데이터는 kaggle에서 제공하는 marketing sample 데이터입니다.<br>
 Marketing campaign을 효율적으로 달성하기 위한 response model을 개발하는 것을 최종 목적으로 하는 데이터지만, 여러분은 해당 데이터로 EDA를 진행해주시면 되겠습니다. 
 
