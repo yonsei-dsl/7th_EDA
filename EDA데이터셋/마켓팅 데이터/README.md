@@ -1,46 +1,33 @@
-# sleep-data
+Marketing Campaign
+해당 데이터는 kaggle에서 제공하는 marketing sample 데이터입니다.<br>
+Marketing campaign을 효율적으로 달성하기 위한 response model을 개발하는 것을 최종 목적으로 하는 데이터지만, 여러분은 해당 데이터로 EDA를 진행해주시면 되겠습니다. 
 
-# 당신의 잠은 어떠신가요?
+데이터의 구성은 다음과 같습니다.<br> 크게 소비자의 특징 / 소비자의 패턴 / 1 ~ 6번째(Response, target으로 표시되는 column입니다).) 캠페인의 반응 여부 등으로 구성되어있습니다. <br>추가적인 연구의 여지를 남기기 위해, kaggle에서 제공하는 원문만 하단에 따로 첨부합니다.
 
-1.Sleep-Data
+기업에 대한 데이터는 별도로 주어져 있지 않습니다. 주어진 column에 기반해서 기업의 종류와 BM, 매출 등을 가정해서 EDA를 진행해도 재밌겠습니다. 실제 기업의 경우를 참고해도 되고요.
 
-닥터도지 사전예약자 1266명이 답변한 수면 행동에 대한 데이터입니다. 한국 사람들은 본인의 수면을 어떻게 생각할까요? 어떤 어려움이 있고 어떤 노력을 하고 있을까요?
-
-실제 질문지를 확인하여 설문의 흐름을 확인하세요! >> https://forms.gle/T9WJ7GFXCQXTqiS37
-
-| Variables     | Format        |
-| ------------- | ------------- |
-| Timestamp     | DateTime      | 
-| Age           | Number        | 
-| Gender        | Binary        | 
-| Occupation    | Category      | 
-| Difficulties  | Number        | 
-| Smart Watch   | Binary        | 
-| Sleep Watch   | Binary        | 
-| Sleep App     | Binary        | 
-| Sleep App Name| Character     | 
-| App Purpose   | Character     | 
-| Sleep Needed  | Character     | 
-| Sleep Aids    | Character     |
-
-
-# 당신은 왜 좋은 잠을 원하시나요?
-
-2.Contents-Copy
-
-좋은 수면을 원하는 이유는 모두 다릅니다. 어떤 사람은 공부를 더 잘 하기 위해, 어떤 사람은 좋은 피부를 위해, 어떤 사람은 건강하기 위해 좋은 수면을 필요로 하죠.
-
-닥터도지는 그럼 어떠한 관심사를 가진 사람들에게 가장 좋은 반응을 보일까요?
-
-10가지 관심사를 기반으로 도출한 22가지의 광고 카피를 담은 데이터입니다.
-
-
-# 실제 광고 반응은 어땠을까요?
-
-3.Contents-Marketing-Data
-
-페이스북 실광고 데이터를 기반하여 어떤 사람들이, 어떤 콘텐츠에 더 반응했는지 알 수 있는 데이터입니다. 
-
-변수는 다음과 같습니다: 연령, 성별, 날짜, 결과, 도달수, 노출, 결과당 비용, 지출 금액, 빈도, 고유 링크, 링크 클릭, 랜딩페이지 조회, 랜딩페이지 조회당 비용, 페이지 팜여, 게시글 댓글, 게시글 참여, 게시글 공감, 게시글 저장, 게시글 공유, 보고 시작, 보고 종료.
-
-변수에 대한 설명은 여기서 확인하실 수 있습니다: https://brunch.co.kr/@seongminyoo/72
+- AcceptedCmp1 - 1 if customer accepted the offer in the 1st campaign, 0 otherwise
+- AcceptedCmp2 - 1 if customer accepted the offer in the 2nd campaign, 0 otherwise
+- AcceptedCmp3 - 1 if customer accepted the offer in the 3rd campaign, 0 otherwise
+- AcceptedCmp4 - 1 if customer accepted the offer in the 4th campaign, 0 otherwise
+- AcceptedCmp5 - 1 if customer accepted the offer in the 5th campaign, 0 otherwise
+- Response (target) - 1 if customer accepted the offer in the last campaign, 0 otherwise
+- Complain - 1 if customer complained in the last 2 years
+- DtCustomer - date of customer’s enrolment with the company
+- Education - customer’s level of education
+- Marital - customer’s marital status
+- Kidhome - number of small children in customer’s household
+-  Teenhome - number of teenagers in customer’s household
+-  Income - customer’s yearly household income
+- MntFishProducts - amount spent on fish products in the last 2 years
+- MntMeatProducts - amount spent on meat products in the last 2 years
+- MntFruits - amount spent on fruits products in the last 2 years
+- MntSweetProducts - amount spent on sweet products in the last 2 years
+- MntWines - amount spent on wine products in the last 2 years
+- MntGoldProds - amount spent on gold products in the last 2 years
+- NumDealsPurchases - number of purchases made with discount
+- NumCatalogPurchases - number of purchases made using catalogue
+- NumStorePurchases - number of purchases made directly in stores
+- NumWebPurchases - number of purchases made through company’s web site
+- NumWebVisitsMonth - number of visits to company’s web site in the last month
+- Recency - number of days since the last purchase
