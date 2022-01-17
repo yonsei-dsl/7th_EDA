@@ -1,5 +1,7 @@
 # 빅토리아 시크릿 속옷데이터
 
+데이터셋 : https://drive.google.com/drive/folders/1ZS6LWUvIVR7dtLXH5yLa5msuz-4TuFaq?usp=sharing
+
 본 데이터셋은 Victoria's Secret 사이트에서 추출해온 데이터로, 속옷 패션 트렌드에 대한 분석을 진행할 수 있는 데이터셋입니다.
 
 
