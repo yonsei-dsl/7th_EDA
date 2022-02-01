@@ -7,8 +7,8 @@ ___
 ___
 ## Data
 ___
-* World Happiness Report (Kaggle) [click here] (https://www.kaggle.com/unsdsn/world-happiness?select=2017.csv)
-* Additional data from the official WORLD HAPPIENESS REPORT [website] (https://worldhappiness.report/faq/) -> data of year 2020 & 2021
+* World Happiness Report (Kaggle) [click here](https://www.kaggle.com/unsdsn/world-happiness?select=2017.csv)
+* Additional data from the official WORLD HAPPIENESS REPORT [website](https://worldhappiness.report/faq/) -> data of year 2020 & 2021
 - you may get the data from "APPENDICES & DATA" in each reports
 
 ## 분석 목적
