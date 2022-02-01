@@ -3,8 +3,52 @@
 ___
 ![title](https://github.com/jayl-ee/7th_EDA/blob/main/E조/ppt1.png) 
 ___
+## Data
+___
+* World Happiness Report (Kaggle) [click here] (https://www.kaggle.com/unsdsn/world-happiness?select=2017.csv)
+* Additional data from the official WORLD HAPPIENESS REPORT [website] (https://worldhappiness.report/faq/) -> data of year 2020 & 2021
+- you may get the data from "APPENDICES & DATA" in each reports
 
+## 분석 목적
+___
+* 행복지수에 영향을 주는 요인을 알아내고, 세부적으로 일부 나라들의 특성을 분석해봄.
+* 분석 국가 및 지역 : 서유럽 , 대한민국, 라틴 아메리카, 일본
 
+## Description 
+___
+### visualization(Chan Young).ipynb
+* 각 지역별 correlation matrix
+* * 라틴아메리카 correlation matrix
+* * 라틴아메리카 vs 베네수엘라 행복랭킹 변화
+* * 라틴아메리카 6개 변수 변화 그래프
+* * 라틴아메리카 vs 베네수엘라 6개 변수 변화 비교 그래프
+* * 라틴아메리카 vs 베네수엘라 trust 비교 그래프
+
+* 대한민국 correlation matrix
+* * 한국 vs 라틴아메리카 Economy, 행복랭킹 변화 비교 그래프
+* * 한국 vs 라틴아메리카 6개 볌수 변화 비교 그래프
+
+* 전세계 지역 행복순위 변화 비교 그래프
+* * 서유럽 correaltion matrix
+* * 서유럽 vs 중위권 지역 6개변수 비교 그래프
+* * 서유럽 vs 한국 6개 변수 비교그래프
+
+## World Happiness Report_Korea
+* 대한민국 vs 모든 국가 평균
+* * 행복순위, 행복지수 추이 비교
+* * 6개 변수 변화 그래프 비교
+
+* 대한민국 vs 일본
+* * 행복순위 비교 (비슷한 것으로 파악)
+* * 6개 변수 변화 그래프 비교
+
+* 대한민국 correlation matrix 분석
+* * 한국의 correlation vs 모든 국가 평균의 correlation 비교
+* * 한국의 Economy와 Happiness Score의 변화 비교 (음의 상관관계 확인)
+
+* 대한민국 vs 한국보다 Economy 낮지만 Happiness Rank 높은 나라
+* * 7개년 동안 계속 그 특성을 유지한 15개국 추출 및 시각화 (라틴 아메리카의 비중이 높음을 파악)
+* * 6개 변수 변화 그래프 비교
 
 
 
