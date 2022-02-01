@@ -4,8 +4,8 @@ ___
 ![mm](https://github.com/YonseiDSL/6th_EDA/blob/master/dsl_logo.JPG?raw=true)
 ___
 
-![mm]() #ppt 1p
-![mm]() #ppt 2p
+![mm](https://github.com/jayl-ee/7th_EDA/blob/main/E조/ppt1.png)
+![mm](https://github.com/jayl-ee/7th_EDA/blob/main/E조/ppt2.png)
 
 
 
