@@ -73,3 +73,17 @@ ___
 * 행복지수 순위가 비슷한 국가들 속의 Denmark
 * * 행복지수 순위가 비슷한 국가들과 Denmark의 correlation matrix 비교
 * * 행복지수 순위가 비슷한 국가들과 Denmark의 각 요소별 시계열 분석 및 비교
+
+### World_Happiness_Report_Japan,_happiness_map,_top30_vs_bottom30.ipynb
+* 일본의 행복 지표
+* * 각 feature의 상관계수, 행복지수 및 순위 변동성
+* * 각 feature별 변동성
+* * 일본과 Eastern Asia 국가 비교
+* * 일본과 비슷한 순위의 10개 국가 비교 
+
+* Region별 행복지수 지도 시각화
+
+* 행복지수 상위 30개국, 하위 30개국 선정
+* * 각 국가의 Region별 분포도
+* * 각 feature의 상관계수 비교
+* * 각 feature의 지수 비교
